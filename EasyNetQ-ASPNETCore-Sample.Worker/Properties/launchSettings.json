@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "EasyNetQ_ASPNETCore_Sample.Worker": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

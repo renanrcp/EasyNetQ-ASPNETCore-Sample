@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-EasyNetQ_ASPNETCore_Sample.Worker-291E72EC-7107-4128-B69C-366F42792A91</UserSecretsId>
+    <RootNamespace>EasyNetQ_ASPNETCore_Sample.Worker</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyNetQ.DI.Microsoft" Version="5.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.6" />
+  </ItemGroup>
+</Project>
